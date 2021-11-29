@@ -14,38 +14,37 @@
 4. Do your work
    - Create, edit your files.
 5. Add files to staging area
-i. git add <filename>
-ii. To add all files in current directory use: git add .
+   - git add <filename>
+   - To add all files in current directory use: git add .
 6. Commit files
-i. git commit
-ii. Add a note
-iii. Close the automatically opened editor
-iv. Or git commit -m “your message”
-v. You may even skip the staging part by adding –a flag.
+   - git commit
+   - Add a note
+   - Close the automatically opened editor
+   - Or git commit -m “your message”
+   - You may even skip the staging part by adding –a flag.
 7. Before pushing local changes to remote repo
-i. First pull from the repo, to make sure there are no conflits
-ii. git pull
-iii. Now you may push
-iv. git push
+   - First pull from the repo, to make sure there are no conflits
+   - git pull
+   - Now you may push
+   - git push
 8. You may want to view the git history
    - git log
 9. Extras
-i. For creating a new branch
-1. git branch <branch name>
-ii. To view all branches
-1. git branch
-iii. To change current working branch
-1. git checkout <branch name>
-iv. To delete a branch
-1. git branch –d <branch name>
-v. To merge a branch with master
-1. git merge <branch name>
-vi. To rebase current branch onto master
-1. git rebase master
-vii. Revert
-1. Creates a new commit with the previous commit removed (adds to
-the chain)
-2. git revert Head
-viii. Reset
-1. Resets to an old commit (shortens the chain)
-2. git reset <commit hash, can be found from log>
+   1. For creating a new branch
+      - git branch <branch name>
+   2. To view all branches
+      - git branch
+   3. To change current working branch
+      - git checkout <branch name>
+   4. To delete a branch
+      - git branch –d <branch name>
+   5. To merge a branch with master
+      - git merge <branch name>
+   6. To rebase current branch onto master
+      - git rebase master
+   7. Revert
+      - Creates a new commit with the previous commit removed (adds to the chain)
+      - git revert Head
+   8. Reset
+      - Resets to an old commit (shortens the chain)
+      - git reset <commit hash, can be found from log>
