@@ -1,36 +1,35 @@
 # Git-Training
-Basic Commands
-a. For first time user:
-i. Setup Private Access Token on GitHub for remote access to Repositories.
-ii. Setup the email id and username on Git.
-b. Initializaiton
-i. To set the current directory to be managed/ tracked by Git.
-ii. git init
-iii. You can exclude files you wish not to be tracked by creating a .gitignore file
-and adding all the filenames or folder to be ignored by Git.
-c. Clone the repo from Github
-i. Make a new repo from Github, if not already exists
-ii. Copy the HTTPS path for cloning the remote repo on your local machine.
-iii. git clone <link>
-d. Do your work
-i. Create, edit your files.
-e. Add files to staging area
+## Basic Commands
+1. For first time user:
+   - Setup Private Access Token on GitHub for remote access to Repositories.
+   - Setup the email id and username on Git.
+2. Initializaiton
+   - To set the current directory to be managed/ tracked by Git.
+   - git init
+   - You can exclude files you wish not to be tracked by creating a .gitignore file and adding all the filenames or folder to be ignored by Git.
+3. Clone the repo from Github
+   - Make a new repo from Github, if not already exists
+   - Copy the HTTPS path for cloning the remote repo on your local machine.
+   - git clone <link>
+4. Do your work
+   - Create, edit your files.
+5. Add files to staging area
 i. git add <filename>
 ii. To add all files in current directory use: git add .
-f. Commit files
+6. Commit files
 i. git commit
 ii. Add a note
 iii. Close the automatically opened editor
 iv. Or git commit -m “your message”
 v. You may even skip the staging part by adding –a flag.
-g. Before pushing local changes to remote repo
+7. Before pushing local changes to remote repo
 i. First pull from the repo, to make sure there are no conflits
 ii. git pull
 iii. Now you may push
 iv. git push
-h. You may want to view the git history
-i. git log
-i. Extras
+8. You may want to view the git history
+   - git log
+9. Extras
 i. For creating a new branch
 1. git branch <branch name>
 ii. To view all branches
